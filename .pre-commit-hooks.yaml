@@ -2,7 +2,7 @@
     name: stylelint
     entry: stylelint
     language: node
-    files: \.(css|scss|sass)$
+    files: \.(css|scss|sass|ts|tsx)$
     args: []
 
 
