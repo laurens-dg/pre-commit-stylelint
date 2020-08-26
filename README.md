@@ -1,10 +1,9 @@
-Pre-commit hook for Styleint
+Pre-commit hook for Stylelint + styled-components / emotion
 =============================
 
 This is the Stylelint hook for [pre-commit](https://github.com/pre-commit/pre-commit). This prevents git commits unless the checks pass.
 
-
-### Using styleint with pre-commit
+### Using stylelint with pre-commit
 
 - To use this you first need to install pre-commit(see links below).
 - Then create a pre-commit config file and also a stylelint config file in the root of your project.
