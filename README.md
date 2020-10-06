@@ -12,14 +12,13 @@ This is the Stylelint hook for [pre-commit](https://github.com/pre-commit/pre-co
 Finally add this to your `.pre-commit-config.yaml`:
 
 ```yaml
-  - repo: https://github.com/liamdanger/pre-commit-stylelint
-    rev: '0.1.0'
+  - repo: https://github.com/laurens-dg/pre-commit-stylelint
+    rev: '0.2.1'
     hooks:
       - id: stylelint
         additional_dependencies:
-        - stylelint@13.6.1
-        - stylelint-processor-styled-components@1.10.0
-        - stylelint-config-styled-components@0.1.1
+        - stylelint@13.7.2
+        - stylelint-prettier@1.1.2
         - stylelint-config-standard@20.0.0
  ```
 
