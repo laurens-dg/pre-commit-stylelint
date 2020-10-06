@@ -1,5 +1,11 @@
 {
     "name": "pre-commit-stylelint",
-    "description": "Note: double curly-braces because python .format",
-    "version": "0.2.1"
+    "description": "Stylelint pre-commit hook for LESS",
+    "version": "0.2.1",
+    "repository": "https://github.com/laurens-dg/pre-commit-stylelint",
+    "dependencies": {
+        "stylelint": "13.7.2",
+        "stylelint-config-prettier": "8.0.2",
+        "@modyqyw/stylelint-config": "1.0.0"
+    }
 }

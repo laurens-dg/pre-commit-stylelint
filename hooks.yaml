@@ -4,4 +4,4 @@
     language: node
     files: \.(css|scss|sass|less)$
 
-    minimum_pre_commit_version: 0.7.0
+    minimum_pre_commit_version: 2.0.0

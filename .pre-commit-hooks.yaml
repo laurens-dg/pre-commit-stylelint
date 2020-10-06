@@ -3,6 +3,9 @@
     entry: stylelint
     language: node
     files: \.(css|scss|sass|less)$
-
-    # Use additional_dependencies to install the actual node package
     minimum_pre_commit_version: 2.0.0
+    additional_dependencies:
+        - stylelint@13.7.2
+        - prettier@2.1.2
+        - stylelint-prettier@1.1.2
+        - stylelint-config-prettier@8.0.2
